@@ -10,3 +10,11 @@ btnLike1.addEventListener("click", () => {
     contadorLikes1++;
     document.querySelector("#contador-likes-1").textContent = `${contadorLikes1} Me Gusta!`;
 })
+btnLike2.addEventListener("click", () => {
+    contadorLikes2++;
+    document.querySelector("#contador-likes-2").textContent = `${contadorLikes2} Me Gusta!`;
+})
+btnLike3.addEventListener("click", () => {
+    contadorLikes3++;
+    document.querySelector("#contador-likes-3").textContent = `${contadorLikes3} Me Gusta!`;
+})
